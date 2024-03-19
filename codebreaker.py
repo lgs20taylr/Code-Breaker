@@ -10,7 +10,7 @@ def main():
         guess = input("Enter a guess.")
         guess = list(guess)
         if checkGuess(guess, code, codeLength):
-            print(f"Correct. The code was {str(code)}.")
+            print(f"Correct. The code was {codeStr}.")
             win = True
             break
     if not win:
